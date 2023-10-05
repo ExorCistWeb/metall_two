@@ -920,43 +920,6 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 /* End */
 
 
-/* Start:/bitrix/templates/karkas/components/bitrix/breadcrumb/breadcrumbs/style.min.css?1646738658467*/
-
-.bx-breadcrumb {
-    margin: 10px 0
-}
-
-.bx-breadcrumb i {
-    color: #b5bdc2;
-    line-height: 13px;
-    font-size: 12px;
-    vertical-align: middle;
-    margin-right: 5px
-}
-
-.bx-breadcrumb .bx-breadcrumb-item {
-    float: left;
-    margin-bottom: 10px;
-    white-space: nowrap;
-    line-height: 13px;
-    vertical-align: middle;
-    margin-right: 10px
-}
-
-.bx-breadcrumb .bx-breadcrumb-item span {
-    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 13px;
-    white-space: normal
-}
-
-.bx-breadcrumb .bx-breadcrumb-item a {
-    border-bottom: 0
-}
-
-
-/* End */
-
-
 /* Start:/bitrix/templates/karkas/assets/css/bootstrap.min.css?1646738658163873*/
 
 @charset "UTF-8";
@@ -13116,13 +13079,14 @@ a:focus {
 
 :root {
     /* color */
-    --primary-color: #6a951f !important;
-    --primary-color2: #4b6f0d !important;
+    --primary-color: #EF493B !important;
+    --primary-color2: #C03226 !important;
     --primary-color3: #f6f3ec !important;
     --primary-color4: #525368 !important;
     --primary-color5: #181818 !important;
     --primary-color6: #faab34 !important;
     --primary-color7: #706c69 !important;
+    --primary-color8: #47ADEF !important;
 }
 
 
@@ -14759,7 +14723,6 @@ article.post .content-post .more-link a:hover {
 }
 
 .widgets-contact-info .heading-16px-rubik:first-child {
-    ;
     font-weight: 400;
 }
 
@@ -15433,7 +15396,7 @@ article.post .content-post .more-link a:hover {
 .item-cat-arrow {
     width: 44px;
     height: 44px;
-    background: var(--primary-color6);
+    background: var(--primary-color);
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -16061,7 +16024,7 @@ ymaps[class*="copyrights-pane"] {
 }
 
 .btn-call-order {
-    background-color: var(--primary-color6);
+    background-color: var(--primary-color);
     border-radius: 7px;
     box-shadow: 0 5px 11px 0 rgba(250, 171, 52, 0.65);
     padding: 12px 14px 12px 0;
@@ -16094,7 +16057,7 @@ ymaps[class*="copyrights-pane"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color6);
+    color: var(--primary-color);
     font-size: 14px;
     border-radius: 5px;
     margin-right: 12px;
@@ -16111,7 +16074,7 @@ ymaps[class*="copyrights-pane"] {
 
 .btn-call-order .btn-txt span {
     font-size: 12px;
-    color: #855b1c;
+    color: #fff;
     display: block;
 }
 
@@ -16195,11 +16158,6 @@ ymaps[class*="copyrights-pane"] {
     width: 75px;
 }
 
-#header .logo-header a img {
-    display: inline-block;
-    width: 75px;
-}
-
 .about-box-nd1 {}
 
 .ab-icon {
@@ -16247,8 +16205,9 @@ ymaps[class*="copyrights-pane"] {
     height: 186px;
     border-radius: 50%;
     background: transparent;
-    border: 30px solid var(--primary-color);
+    border: 30px solid var(--primary-color8);
     position: absolute;
+    opacity: 0.3;
     bottom: 400px;
     right: -95px;
     z-index: 1;
@@ -16274,7 +16233,7 @@ ymaps[class*="copyrights-pane"] {
 }
 
 .pth-of-txt {
-    background: var(--primary-color);
+    background: #47ADEF;
     color: #fff;
     font-size: 15px;
     line-height: 1.2;
@@ -16284,12 +16243,13 @@ ymaps[class*="copyrights-pane"] {
 }
 
 .pth-of-txt .plus {
+    color: var(--primary-color);
     width: 14px;
     height: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--primary-color6);
+    background: #fff;
     border-radius: 100px;
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
     margin-right: 10px;
@@ -16336,7 +16296,7 @@ ymaps[class*="copyrights-pane"] {
     margin: auto;
     width: 44px;
     height: 44px;
-    background: var(--primary-color6);
+    background: var(--primary-color8);
     box-shadow: 0 0 0 5px rgb(255 255 255 / 70%);
     display: flex;
     align-items: center;
@@ -16390,13 +16350,12 @@ ymaps[class*="copyrights-pane"] {
 }
 
 a.btn-big-h {
-    background: rgb(86, 123, 24);
-    background: linear-gradient(0deg, rgba(86, 123, 24, 1) 0%, rgba(106, 150, 31, 1) 100%);
+    background: linear-gradient(0deg, #D1372A 0%, #EF493B 100%);
     border-radius: 10px;
     display: inline-flex;
     align-items: center;
     padding: 15px 30px 15px 15px;
-    box-shadow: inset 0 0 8px 0 #7fb225, 0 1px 0 0 #7fb225, 0 3px 0px 0 #4b6f0c, 0 10px 20px 0 rgb(106 150 31 / 70%);
+    box-shadow: 0px 10px 20px 0px rgba(239, 73, 59, 0.70), 0px 3px 0px 0px #EF493B, 0px 1px 0px 0px #EF493B, 0px 0px 8px 0px #EF493B inset;
 }
 
 a.btn-big-h span {
@@ -16408,7 +16367,7 @@ a.btn-big-h span {
 a.btn-big-h small {
     display: block;
     font-size: 14px;
-    color: #3c590a;
+    color: #fff;
     white-space: nowrap;
 }
 
@@ -16455,7 +16414,7 @@ a.btn-big-h svg {
 }
 
 a.link-bb {
-    color: var(--primary-color6);
+    color: var(--primary-color);
     border-bottom: 1px dashed;
 }
 
@@ -16510,7 +16469,7 @@ a.link-bb {
 }
 
 .pth-icon svg {
-    fill: var(--primary-color6);
+    fill: var(--primary-color8);
     height: 26px;
     width: auto;
 }
@@ -18293,13 +18252,13 @@ span.bold {
 }
 
 .top-bar-left .top-mail {
-    color: var(--primary-color2) !important;
+    color: var(--primary-color) !important;
 }
 
 .top-header1 .top-location {
     margin-right: 26px;
     letter-spacing: 0.1px;
-    color: var(--primary-color2) !important;
+    color: var(--primary-color) !important;
 }
 
 .top-header1 .widgets-nav-social li {
@@ -18307,7 +18266,7 @@ span.bold {
 }
 
 .top-header1 .fa {
-    color: var(--primary-color2) !important;
+    color: var(--primary-color) !important;
     font-size: 14px;
     border-radius: 100%;
     border: 2px solid #fff;
@@ -22769,9 +22728,6 @@ textarea {
 
 
 /* /bitrix/templates/karkas/components/bitrix/catalog.section.list/top_menu/style.min.css?1646738658971 */
-
-
-/* /bitrix/templates/karkas/components/bitrix/breadcrumb/breadcrumbs/style.min.css?1646738658467 */
 
 
 /* /bitrix/templates/karkas/assets/css/bootstrap.min.css?1646738658163873 */
